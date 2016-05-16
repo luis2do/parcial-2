@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>inicion de sesion</title>
+        <script>
+        function sesion() {
+            //lert("funciona");
+            var txtUser = document.getElementById("user").value;
+            var txtPassword.getElementById("pasword").value;
+            var remember = Document.getElementById("remember").cheked;
+            document.getElementById("resultado");
+            resultado.innerHTML.replace="usuario"+txtuser;
+    
+        }
+        document.getElementById("inicar").addEventListener("click",function(evento){
+            evento.preventDefault();
+            sesion();
+            
+        });
+    </script>
+</head>
+<body>
+    <h1>inicio de sesion</h1>
+    <div id="resultado"></div>
+    <div id="loginform">
+        <!--<form action="#">-->
+        <form id="frmlogin" name="frmlogin">
+        <div>
+            <label form="user">usuario</label>
+            <input type="text" name="user" id="user">
+        </div>
+        <div>
+                <label for="pasword">contraseña</label>
+                <input type="password" name="password" id="pasword">
+        </div>
+        <div>
+            <label for="remember">
+            <input type="checkbox" name="remember" id="remember" values="">recordar sesion</label>
+        </div>
+        <div>
+        <a href="#">¿olvidaste tu contraseña?</a>
+        </div>
+        <div>
+        <button>registrar</button>
+        <button id="iniciar">iniciar sesion</button>
+        
+        </div>
+        </form>
+    </div>
+</body>
+    <body background="C:\Users\Luis\Desktop\mis paginas\imagenes\yoshi_real_vs_2.png"></body>
+</html>

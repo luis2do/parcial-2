@@ -1,0 +1,17 @@
+proyecto web/
+index.html index.php index.aspx defaul.aspx index.jsp
+*.html
+*.php
+*.aspx
+*.jsp
+imagenes/ 
+*.jpg
+*.png
+*.gif
+ccs/
+*.css
+js/
+video/
+*.mp4
+*.avi
+*.mpg
