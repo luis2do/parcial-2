@@ -21,7 +21,7 @@
 }
 #barra-navegacion{
     margin: auto;
-    background-color: #673c3c;
+    background-color:darkgrey;
     width: 980px;
     height: 50px;
     display: flex;
@@ -47,7 +47,7 @@
     
 }
 #barra-navegacion ul > li > a:hover{
-    background-color: #6646be;
+    background-color: #83808d;
 
 }
 #barra-navegacion > ul > li > a:hover{
