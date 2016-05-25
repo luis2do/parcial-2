@@ -1,5 +1,9 @@
 /*archivo esxterno css*/
 /*reset html*/
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
 #encabezado{
     margin: auto;
     height: 175px;
@@ -68,7 +72,7 @@
     box-shadow: 0 0 10px grey;
 }
 #notas-secundaria{
-    margin: 0 auto;
+    margin-top: 15px;
     float: left;
     width: 760px;
     min-height: 260px;
@@ -79,7 +83,7 @@
 #notas-secundarias figure{
     position: relative;
 }
-#notas-secundarias figure span{
+#notas-secundaria figure span{
     position: absolute;
     top: 10px;
     left: -10px;
@@ -87,8 +91,51 @@
     background-color: lightgrey;
     box-shadow: 1px 1px 3px darkgrey;
 }
+#notas-secundaria article div{
+    padding-left: 20px;
+    padding-right: 10px
+}
+#notas-secundaria article div p {
+    text-align: justify;
+    line-height: 0.8em;
+}
+#notas-secundaria article h2{
+    font-variant: small-caps;
+    line-height: 0.8em;
+}
+#notas-secundaria a{
+    color: #b92025;
+    text-decoration: none;
+}
+#notas-secundaria a:hover{
+    color: #2a6496;
+    text-decoration: underline;
+}
+.sombra-imagen{
+    box-shadow: 0 0 5px darkgray;
+}
+.ver-mas div{
+    margin: 0 !important;
+    padding: 5px !important;
+    
+}
+.ver-mas>div{
+    height: 1.8em;
+    background-color: #b92025;
+    display: inline-block;
+}
+.ver-mas>div>div{
+    width: 100px;
+    border: 1px solid white;
+}
+.ver-mas p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
 figure{
     margin: 0;
+    position: relative;
 }
 
 .nota-secundaria{
@@ -97,10 +144,12 @@ figure{
 }
 
 #publicidad{
+    margin-top: 15px;
     float: right;
-    width: 220px;
+    width: 210px;
+    padding: 5px;
     height: 500px;
-    margin: 0 auto;
+    
     background-color: darkorange;
 }
 #pie-de-pagina{
