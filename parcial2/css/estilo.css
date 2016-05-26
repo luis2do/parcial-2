@@ -79,6 +79,11 @@ h1,h2,h3,h4,h5,h6,p{
 }
 #notas-secundaria article{
     display: flex;
+    background-image: url('../imagenes/png/sombra_nota_secundaria.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
 }
 #notas-secundarias figure{
     position: relative;
@@ -96,6 +101,7 @@ h1,h2,h3,h4,h5,h6,p{
     padding-right: 10px
 }
 #notas-secundaria article div p {
+    padding-bottom: 10px;
     text-align: justify;
     line-height: 0.8em;
 }
@@ -114,25 +120,26 @@ h1,h2,h3,h4,h5,h6,p{
 .sombra-imagen{
     box-shadow: 0 0 5px darkgray;
 }
-.ver-mas div{
-    margin: 0 !important;
-    padding: 5px !important;
-    
-}
-.ver-mas>div{
-    height: 1.8em;
-    background-color: #b92025;
-    display: inline-block;
-}
-.ver-mas>div>div{
-    width: 100px;
-    border: 1px solid white;
-}
-.ver-mas p{
-    text-align: center;
+
+.la-clase-div p{
+    padding: 0px !important;
     color: white;
     font-weight: bold;
 }
+.la-clase-div{
+    
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    display: inline-block;
+    background: #b92025;
+    padding: 3px;
+    box-shadow: 0 2px 3px darkgray;
+}
+.la-clase-div-dos{
+    padding: 5px 10px !important;
+    border: 1px solid rgba(255,255,255,.7);
+}
+
 figure{
     margin: 0;
     position: relative;
