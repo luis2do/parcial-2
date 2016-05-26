@@ -85,10 +85,10 @@ h1,h2,h3,h4,h5,h6,p{
     padding-bottom: 40px;
     margin-bottom: 20px;
 }
-#notas-secundarias figure{
+.imagen-nota-secundaria{
     position: relative;
 }
-#notas-secundaria figure span{
+.imagen-nota-secundaria span{
     position: absolute;
     top: 10px;
     left: -10px;
@@ -96,25 +96,25 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: lightgrey;
     box-shadow: 1px 1px 3px darkgrey;
 }
-#notas-secundaria article div{
+.horacio{
     padding-left: 20px;
     padding-right: 10px
 }
-#notas-secundaria article div p {
+.intro-nota-secundaria{
     padding-bottom: 10px;
+    padding-top: 10px;      
     text-align: justify;
     line-height: 0.8em;
 }
-#notas-secundaria article h2{
+.horacio{
     font-variant: small-caps;
-    line-height: 0.8em;
+    line-height: 1.2em;
 }
 #notas-secundaria a{
     color: #b92025;
     text-decoration: none;
 }
-#notas-secundaria a:hover{
-    color: #2a6496;
+.titulo-nota-secundaria:hover{
     text-decoration: underline;
 }
 .sombra-imagen{
@@ -122,17 +122,13 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .la-clase-div p{
-    padding: 0px !important;
     color: white;
     font-weight: bold;
 }
 .la-clase-div{
-    
-    padding-left: 10px !important;
-    padding-right: 10px !important;
     display: inline-block;
     background: #b92025;
-    padding: 3px;
+    padding: 4px !important;
     box-shadow: 0 2px 3px darkgray;
 }
 .la-clase-div-dos{
