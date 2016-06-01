@@ -13,6 +13,7 @@ h1,h2,h3,h4,h5,h6,p{
     
 }
 #contenido{
+    background-color: #fafafa;
     width: 980px;
     margin: 0 auto;
 }
@@ -73,7 +74,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 #notas-secundaria{
     margin-top: 15px;
-    float: left;
+    
     width: 760px;
     min-height: 260px;
 }
@@ -140,31 +141,27 @@ figure{
     margin: 0;
     position: relative;
 }
-
 .nota-secundaria{
    display: flex; 
    justify-content:space-around;
 }
-
-#publicidad{
+#anuncios{
     margin-top: 15px;
-    float: right;
+    border-left: 3px double lightgray; 
     width: 210px;
     padding: 5px;
-    height: 500px;
-    
-    background-color: darkorange;
+    min-height: 290px;
+}
+#anuncios>img{
+    margin: 3px 0;
 }
 #pie-de-pagina{
-    clear: both;
+    
     height: 50px;
     width: 980px;
     margin: auto;
-    background-color: darkmagenta;
+    
 }
-
-
-
 #titulos{
     display: inline-block;
     margin: 0;
@@ -175,4 +172,76 @@ figure{
     width: 300px;
     height: 88px;
 }
-
+#programas{
+    
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+#politicas{
+    border-bottom: 3px double lightgray;
+    border-top: 3px double lightgray;
+    padding: 5px;
+    text-align: center;
+    color: #848484;
+}
+.separador-sems{
+    padding: 10px 0;
+    margin: 10px 0;
+    position: relative;
+    text-align: center;
+}
+.separador-sems a::before, .separador-sems::after{
+    content: "";
+    border-top: 3px double lightgray;
+    width: 340px;
+    position: absolute;
+    top: 25px;
+    
+}
+.separador-sems a::after{
+    right: 0;
+}
+.separador-sems a::before{
+    left: 0;
+}
+.fexible{
+    display: flex;
+}
+.facebook, .twiter{
+    text-indent: -9999px;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    justify-content: center;
+}
+.ultima-direccion{
+    height: auto;
+}
+.facebook{
+    background: url('../imagenes/png/facebook_twitter.png') 0 0;
+}
+.twiter{
+    background: url('../imagenes/png/facebook_twitter.png') -43px 0;
+}
+.facebook:hover{
+    background: url('../imagenes/png/facebook_twitter.png') 0 -43px;
+}
+.twiter:hover{
+    background: url('../imagenes/png/facebook_twitter.png') -43px -43px;
+}
+.barra-pie{
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+.ultima-direccion{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #848484;
+}
+.ultima-direccion a{
+    text-decoration: none;
+    color: #848484;
+}
