@@ -26,36 +26,29 @@ h1,h2,h3,h4,h5,h6,p{
 }
 #barra-navegacion{
     margin: auto;
-    background-color:darkgrey;
     width: 980px;
     height: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #barra-navegacion li{
     padding: 0;
     display: inline-block;
 }
-#barra-navegacion ul ul{
-    background-color: aquamarine;
-    display:none;
+#barra-navegacion>ul ul{
+    display: none;
+}
+#barra-navegacion>ul li{
+    
 }
 #barra-navegacion a{
     color: black;
     text-decoration: none;
     padding: 10px 50px;
-    background-color:darkgray;
-    transition: 0.7s;
 }
 #barra-navegacion ul{
     padding: 0;
-    
-}
-#barra-navegacion ul > li > a:hover{
-    background-color: #83808d;
-
-}
-#barra-navegacion > ul > li > a:hover{
     
 }
 #titulos h1{font-size: 1.5em;}
@@ -67,7 +60,6 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 0;
     height: 320px;
     width: 960px;
-    background-color: chartreuse;
     border: 10px solid;
     border-color:white;
     box-shadow: 0 0 10px grey;
