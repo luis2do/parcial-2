@@ -1,12 +1,12 @@
 /*archivo esxterno css*/
 /*reset html*/
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,figure,li,ul{
     margin: 0;
     padding: 0;
 }
 #encabezado{
     margin: auto;
-    height: 175px;
+    height: 125px;
     width: 980px;
     display: flex;
     justify-content: space-between;
@@ -31,25 +31,28 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../imagenes/png/fondo_menu.png');
+    background-repeat: no-repeat;
+    background-position: center top;
 }
-#barra-navegacion li{
-    padding: 0;
-    display: inline-block;
-}
+
 #barra-navegacion>ul ul{
     display: none;
+    position: absolute;
 }
 #barra-navegacion>ul li{
-    
+    display: inline-block;
+    position: relative;
 }
+#barra-navegacion>ul ul li{
+    display:block;
+    transition: 0.5s;
+    }
 #barra-navegacion a{
     color: black;
     text-decoration: none;
     padding: 10px 50px;
-}
-#barra-navegacion ul{
-    padding: 0;
-    
+    display: flex;
 }
 #titulos h1{font-size: 1.5em;}
 #titulos h2{font-size: 1.2em;}
